@@ -782,6 +782,9 @@ button,textarea{
     text-align: center;
     color: var(--body-color);
     font-size: var(--smallest-font-size);
+    position: absolute;
+    bottom: 3rem;
+    z-index: 10;
 }
 
 /* ========= BREAKPOINTS =========== */
@@ -912,6 +915,7 @@ button,textarea{
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 
 
 
